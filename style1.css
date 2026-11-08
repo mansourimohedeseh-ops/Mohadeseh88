@@ -1,0 +1,35 @@
+@charset "utf-8"
+.menu {
+    width: 220px;
+    min-width: 220px;
+    min-height: 500px;
+    background: linear-gradient(180deg, #64163E, #35133F, #171D4A);
+    padding: 25px 15px;
+    text-align: center;
+    border: 1px solid rgba(212,175,55,0.4);
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+
+.menu a {
+    display: block;
+    color: #F8EED5;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 15px 10px;
+    margin: 15px 0;
+    border: 1px solid rgba(212,175,55,0.4);
+    border-radius: 12px;
+    background: linear-gradient(135deg, #202653, #39204D);
+    transition: all 0.35s ease;
+}
+
+.menu a:hover {
+    background: linear-gradient(135deg, #D4AF37, #F5D77A);
+    color: #25143D;
+    border-color: #FFE69A;
+    transform: translateX(-7px);
+    box-shadow: 0 5px 20px rgba(212,175,55,0.3);
+}
+	

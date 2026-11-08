@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لباس فروشی</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    background:
+        radial-gradient(ellipse at top right, rgba(90, 36, 53, 0.35), transparent 45%),
+        radial-gradient(ellipse at bottom left, rgba(38, 56, 75, 0.4), transparent 45%),
+        linear-gradient(135deg, #101D30, #1B2B40, #26384B);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 30px 20px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    text-align: center;
+    margin: 8px 0;
+    line-height: 1.8;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lebascard {
+    background: linear-gradient(145deg, #26384B, #1B2B40, #542337);
+    border: 1px solid rgba(174, 181, 190, 0.4);
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+    display: flex;
+    flex-direction: column;
+}
+
+.lebascard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 35px rgba(90, 36, 53, 0.35);
+    border-color: #AEB5BE;
+}
+
+.lebasimg img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.lebas-info {
+    padding: 20px;
+    color: #E5E8EC;
+    flex: 1;
+}
+
+.lebas-info h3 {
+    color: #D5D9DF;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* منوی پایین صفحه */
+.menu {
+    max-width: 1200px;
+    margin: 40px auto 10px;
+    padding: 20px;
+    background: linear-gradient(135deg, #26384B, #542337);
+    border: 1px solid #7D8792;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #E5E8EC;
+    background: #26384B;
+    border: 1px solid #7D8792;
+    padding: 12px 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    background: #AEB5BE;
+    color: #101D30;
+    border-color: #D5D9DF;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    .content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .lebasimg img {
+        height: 260px;
+    }
+
+    .menu {
+        gap: 8px;
+        padding: 12px;
+    }
+
+    .menu a {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- محتوای کارت‌های لباس و منوی سایت را اینجا قرار بده -->
+
+</body>
+</html>
+</style>
+</head>
+
+<body>
+
+<div class="content">
+
+<section class="lebascard">
+    <div class="lebasimg">
+        <img src="فروشی/images.jpg"alt="لباس 1">
+    </div>
+    <div class="lebas-info">
+        <h3>کیفیتی که روی تن‌تان حس می‌کنید، نه فقط روی برچسبش</h3>
+        <p>جنس: ساتن پشت کرپ 💯</p>
+        <p>سایز بندی: تک سایز 📌</p>
+        <p>رنگ بندی: سرمه‌ای، سبز آبی، سرخ آبی، مشکی 🎨</p>
+        <p>قیمت: 6500 💸</p>
+    </div>
+</section>
+
+<section class="lebascard">
+    <div class="lebasimg">
+        <img src="فروشی/-2147483648_-211043.jpg" alt="لباس 2">
+    </div>
+    <div class="lebas-info">
+        <h3>کیفیتی که روی تن‌تان حس می‌کنید، نه فقط روی برچسبش</h3>
+        <p>جنس: ساتن آمریکایی 💯</p>
+        <p>سایز بندی: 2 سایز 📌</p>
+        <p>رنگ بندی: سرمه‌ای، سبز آبی، سبز، سرخ آبی، مشکی 🎨</p>
+        <p>قیمت: 11900 💸</p>
+    </div>
+</section>
+
+<section class="lebascard">
+    <div class="lebasimg">
+        <img src="فروشی/-2147483648_-211063.jpg" alt="لباس 3">
+    </div>
+    <div class="lebas-info">
+        <h3>کیفیتی که روی تن‌تان حس می‌کنید، نه فقط روی برچسبش</h3>
+        <p>جنس: شاین دار 💯</p>
+        <p>سایز بندی: تک سایز 📌</p>
+        <p>رنگ بندی: سرمه‌ای، مشکی 🎨</p>
+        <p>قیمت: 17900 💸</p>
+    </div>
+</section>
+
+<section class="lebascard">
+    <div class="lebasimg">
+        <img src="فروشی/Sparkling Ivory Gown with Bow Sash.png" alt="لباس 4">
+    </div>
+    <div class="lebas-info">
+        <h3>کیفیتی که روی تن‌تان حس می‌کنید، نه فقط روی برچسبش</h3>
+        <p>جنس: ساتن پشت کرپ 💯</p>
+        <p>سایز بندی: تک سایز 📌</p>
+        <p>رنگ بندی: سرمه‌ای، سفید، مشکی 🎨</p>
+        <p>قیمت: 25000 💸</p>
+    </div>
+</section>
+
+<section class="lebascard">
+    <div class="lebasimg">
+        <img src="فروشی/images (11).jpg" alt="لباس 5">
+    </div>
+    <div class="lebas-info">
+        <h3>کیفیتی که روی تن‌تان حس می‌کنید، نه فقط روی برچسبش</h3>
+        <p>جنس: دانتل 💯</p>
+        <p>سایز بندی: 2 سایز 📌</p>
+        <p>رنگ بندی: مشکی 🎨</p>
+        <p>قیمت: 33400 💸</p>
+    </div>
+</section>
+
+<section class="lebascard">
+    <div class="lebasimg">
+        <img src="فروشی/gulcanluxury_۲۰۲۶۱۰۲۰_p_4012315631194032242_1_4012314935429522470.jpg" alt="لباس 6">
+    </div>
+    <div class="lebas-info">
+        <h3>کیفیتی که روی تن‌تان حس می‌کنید، نه فقط روی برچسبش</h3>
+        <p>جنس: حریر 💯</p>
+        <p>سایز بندی: تک سایز 📌</p>
+        <p>رنگ بندی: سرمه‌ای، مشکی 🎨</p>
+        <p>قیمت: 28600 💸</p>
+    </div>
+</section>
+
+<section class="lebascard">
+    <div class="lebasimg">
+        <img src="فروشی/IMG_20261005_223142_813.jpg" alt="لباس 7">
+    </div>
+    <div class="lebas-info">
+        <h3>کیفیتی که روی تن‌تان حس می‌کنید، نه فقط روی برچسبش</h3>
+        <p>جنس: کرپ 💯</p>
+        <p>سایز بندی: تک سایز 📌</p>
+        <p>رنگ بندی: کرم 🎨</p>
+        <p>قیمت: 22900 💸</p>
+    </div>
+</section>
+
+<section class="lebascard">
+    <div class="lebasimg">
+        <img src="فروشی/lebas-majlesi-kotah-dokhtaraneh-3.jpg" alt="لباس 8">
+    </div>
+    <div class="lebas-info">
+        <h3>کیفیتی که روی تن‌تان حس می‌کنید، نه فقط روی برچسبش</h3>
+        <p>جنس: ساتن آمریکایی 💯</p>
+        <p>سایز بندی: تک سایز 📌</p>
+        <p>رنگ بندی: مشکی 🎨</p>
+        <p>قیمت: 30600 💸</p>
+    </div>
+</section>
+
+<section class="lebascard">
+    <div class="lebasimg">
+        <img src="فروشی/images (1).jpg" alt="لباس 9">
+    </div>
+    <div class="lebas-info">
+        <h3>کیفیتی که روی تن‌تان حس می‌کنید، نه فقط روی برچسبش</h3>
+        <p>جنس: حریر 💯</p>
+        <p>سایز بندی: تک سایز 📌</p>
+        <p>رنگ بندی: مشکی 🎨</p>
+        <p>قیمت: 29000 💸</p>
+    </div>
+</section>
+
+</div>
+
+<div class="menu">
+    <a href="index1.html">صفحه اصلی</a>
+    <a href="krayeh.html">لباس کرایه</a>
+    <a href="froshi.html">لباس فروشی</a>
+    <a href="bacheh.html">لباس بچه گانه</a>
+    <a href="trend.html">ترند سال</a>
+    <a href="rezayat.html">رضایت مشتری</a>
+	<a href="ertebat.html">ارتباط با ما</a>
+</div>
+
+</body>
+</html>
